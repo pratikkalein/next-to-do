@@ -126,7 +126,6 @@ const TodosPage = () => {
           </button>
         </form>
 
-        {/* Todo List */}
         <ul className="space-y-2">
           {todos.map((todo) => (
             <li key={todo.id}>
